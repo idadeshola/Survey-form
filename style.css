@@ -1,0 +1,89 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, rgba(24, 12, 90, 0.637), rgba(20, 1, 54, 0.637)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
+.container{
+    margin:10px auto;
+    width:50%;
+}
+#title {
+    color:#ffffff;
+    text-align: center;
+}
+#title h1{
+    margin-top:60px;
+  line-height: 1em;
+}
+#description{
+    font-style: italic;
+    font-weight:normal;
+}
+#survey-form{
+    padding:20px;
+    border-radius: 5px;
+    background: rgba(8, 2, 19, 0.658);
+}
+
+.form-info{
+    margin-bottom:10px;
+    color: #ffffff;
+    padding: 5px;
+}
+.form-info p{
+
+  font-size: 1.2em;
+}
+
+
+input[type=text], [type=number], select{
+    width:100%;
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+
+}
+
+input[type=checkbox], [type=radio]{
+    margin-bottom:15px;
+}
+
+::placeholder{
+    color:#7c7c7c;
+  
+
+}
+#dropdown{
+    color:#7c7c7c;
+
+}
+
+textarea{
+    width:100%;
+    min-height: 16%;
+    resize: vertical;
+
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(14, 167, 14);
+    border: 1px solid rgb(14, 167, 14);
+    border-radius: 5px;
+}
+#submit{
+    color:white;
+}
+
+.optional{
+    font-size: 0.8em;
+}
